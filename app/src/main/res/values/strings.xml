@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">alaja_music</string>
+    <string name="app_name">AlajaMusic</string>
+    <string name="btn_login"></string>
+    <string name="btn_sign_up"></string>
 </resources>
