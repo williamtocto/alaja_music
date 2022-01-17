@@ -172,7 +172,11 @@
         android:layout_height="wrap_content"
         android:text="Agregar más"
         android:textColor="#F3420A"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="602dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
 
 </android.support.constraint.ConstraintLayout>

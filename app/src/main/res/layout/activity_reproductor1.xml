@@ -7,6 +7,7 @@
     tools:context=".Reproductor_1"
     android:background="@drawable/background"
     >
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="407dp"
