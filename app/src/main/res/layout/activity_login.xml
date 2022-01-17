@@ -16,17 +16,15 @@
 
     <ImageView
         android:id="@+id/abajo"
+        android:layout_width="252dp"
+        android:layout_height="264dp"
+        android:background="@drawable/balls_donw"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:layout_width="252dp"
-        android:layout_height="264dp"
-        android:background="@drawable/balls_donw"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="470dp" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/arriba"
@@ -75,8 +73,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="29dp"
-        android:layout_height="28dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="@android:color/transparent"
         android:backgroundTint="@android:color/transparent"
         android:focusable="false"
@@ -87,6 +85,20 @@
         app:layout_constraintHorizontal_bias="0.682"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.531" />
+        app:layout_constraintVertical_bias="0.531"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_loguear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arriba"
+        app:layout_constraintVertical_bias="0.218"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </android.support.constraint.ConstraintLayout>

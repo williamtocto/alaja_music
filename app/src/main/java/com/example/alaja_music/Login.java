@@ -9,7 +9,7 @@ import android.view.View;
 public class Login extends AppCompatActivity {
 
 
-    EditText txt_contraseña= (EditText)findViewById(R.id.txt_contraseña);
+    //EditText txt_contraseña= (EditText)findViewById(R.id.txt_contraseña);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +17,6 @@ public class Login extends AppCompatActivity {
     }
 
     public void ver_password(){
-
 
     }
 }

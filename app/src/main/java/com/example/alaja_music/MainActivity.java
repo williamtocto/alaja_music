@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Sign_up(View signUp){
-        Intent window_signUp= new Intent(this, Login.class);
+        Intent window_signUp= new Intent(this, SignUp.class);
         startActivity(window_signUp);
     }
 
