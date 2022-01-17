@@ -1,9 +1,13 @@
 package com.example.alaja_music;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +27,5 @@ public class MainActivity extends AppCompatActivity {
         Intent window_signUp= new Intent(this, SignUp.class);
         startActivity(window_signUp);
     }
-
 
 }

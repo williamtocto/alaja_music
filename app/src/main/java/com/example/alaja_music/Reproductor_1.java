@@ -42,7 +42,7 @@ public class Reproductor_1 extends AppCompatActivity {
             Toast.makeText(this, "Pausa", Toast.LENGTH_SHORT).show();
         } else {
             vectormp[posicion].start();
-            play_pause.setBackgroundResource(R.drawable.pausa);
+            play_pause.setBackgroundResource(R.drawable.pause);
             Toast.makeText(this, "Play", Toast.LENGTH_SHORT).show();
         }
     }
