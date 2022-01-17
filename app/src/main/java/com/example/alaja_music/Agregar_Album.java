@@ -15,7 +15,7 @@ public class Agregar_Album extends AppCompatActivity {
 
 
     public void playListV(View playList){
-        Intent window_playList= new Intent(this, PlayList.class);
+        Intent window_playList= new Intent(this, Play_List.class);
         startActivity(window_playList);
     }
 }

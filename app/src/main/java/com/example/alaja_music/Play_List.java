@@ -1,14 +1,13 @@
 package com.example.alaja_music;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class PlayList extends AppCompatActivity {
+public class Play_List extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.playlist);
+        setContentView(R.layout.activity_play_list);
     }
-
 }
