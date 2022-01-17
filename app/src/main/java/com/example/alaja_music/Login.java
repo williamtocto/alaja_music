@@ -16,8 +16,10 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-
-    public void {
-
+    public void album(View album){
+        Intent window_album= new Intent(this, Agregar_Album.class);
+        startActivity(window_album);
     }
+
+
 }
