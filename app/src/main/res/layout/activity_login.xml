@@ -10,7 +10,7 @@
         android:id="@+id/arriba"
         android:layout_width="235dp"
         android:layout_height="247dp"
-        android:layout_marginBottom="480dp"
+        android:layout_marginBottom="492dp"
         android:background="@drawable/balls_up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +102,7 @@
         app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/arriba"
-        app:layout_constraintVertical_bias="0.218"
+        app:layout_constraintVertical_bias="0.61"
         tools:ignore="SpeakableTextPresentCheck" />
 
 </android.support.constraint.ConstraintLayout>
