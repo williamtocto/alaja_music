@@ -2,4 +2,5 @@
     <string name="app_name">AlajaMusic</string>
     <string name="btn_login"></string>
     <string name="btn_sign_up"></string>
+    <string name="titulo_del_album">Titulo del Album</string>
 </resources>

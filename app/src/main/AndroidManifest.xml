@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Alaja_music">
         <activity
+            android:name=".Agregar_Album"
+            android:exported="false" />
+        <activity
             android:name=".SignUp"
             android:exported="false" />
         <activity
