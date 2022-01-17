@@ -27,8 +27,6 @@ public class Reproductor_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reproductor1);
 
-
-
         //extraemos el drawable en un bitmap
         Drawable originalDrawable = getResources().getDrawable(R.drawable.portada1);
         Bitmap originalBitmap = ((BitmapDrawable) originalDrawable).getBitmap();
@@ -39,13 +37,8 @@ public class Reproductor_1 extends AppCompatActivity {
 
         //asignamos el CornerRadius
         roundedDrawable.setCornerRadius(originalBitmap.getHeight());
-
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
-
         imageView.setImageDrawable(roundedDrawable);
-
-
-
 
 
         play_pause = (Button)findViewById(R.id.btn_play);
@@ -93,7 +86,7 @@ public class Reproductor_1 extends AppCompatActivity {
     //Método repetir una pista
     public void Repetir(View view){
         if(repetir == 1){
-            btn_repetir.setBackgroundResource(R.drawable.no_repetir);
+            btn_repetir.setBackgroundResource(R.drawable.repetir);
             Toast.makeText(this, "No repetir", Toast.LENGTH_SHORT).show();
             vectormp[posicion].setLooping(false);
             repetir = 2;
