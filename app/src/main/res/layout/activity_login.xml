@@ -10,9 +10,12 @@
         android:id="@+id/arriba"
         android:layout_width="235dp"
         android:layout_height="247dp"
+        android:layout_marginBottom="480dp"
         android:background="@drawable/balls_up"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-53dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/abajo"
@@ -27,7 +30,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/arriba"
+        android:id="@+id/panel"
         android:layout_width="390dp"
         android:layout_height="233dp"
         android:layout_marginEnd="68dp"

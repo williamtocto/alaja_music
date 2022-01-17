@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_main);
 
     }
     public void login(View view){
@@ -23,9 +23,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(window_signUp);
     }
 
-    public void Reproductor_1(View view){
-        Intent window_reproductor= new Intent(this, Reproductor_1.class);
-        startActivity(window_reproductor);
-    }
 
 }
