@@ -40,7 +40,6 @@ public class Reproductor_1 extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
         imageView.setImageDrawable(roundedDrawable);
 
-
         play_pause = (Button)findViewById(R.id.btn_play);
         btn_repetir = (Button)findViewById(R.id.btn_repetir);
         iv = (ImageView)findViewById(R.id.imageView);
@@ -49,8 +48,6 @@ public class Reproductor_1 extends AppCompatActivity {
         vectormp[1] = MediaPlayer.create(this, R.raw.sound);
         vectormp[2] = MediaPlayer.create(this, R.raw.tea);
     }
-
-
 
 
     //Método para el botón PlayPause
@@ -65,8 +62,6 @@ public class Reproductor_1 extends AppCompatActivity {
             Toast.makeText(this, "Play", Toast.LENGTH_SHORT).show();
         }
     }
-
-
 
     //Método para el botón Stop
     public void Stop(View view){
