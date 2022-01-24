@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
 
 
@@ -28,4 +30,28 @@ public class MainActivity extends AppCompatActivity {
         startActivity(window_signUp);
     }
 
+    public void registrar(){
+        Intent intent = new Intent();
+        intent.addCategory(intent.getAction());
+
+    }
+/*
+    private void abrirCamara() {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(intent, 1);
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1 && resultCode == RESULT_OK) {
+            Bundle bundle = data.getExtras();
+            Bitmap bitmap = (Bitmap) bundle.get("data");
+            imageView.setImageBitmap(bitmap);
+
+        }
+    }
+*/
 }
