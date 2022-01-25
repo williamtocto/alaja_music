@@ -4,6 +4,8 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
+import android.support.constraint.ConstraintLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +17,7 @@ import android.widget.Toast;
 
 public class Reproductor_1 extends AppCompatActivity {
 
+    private ConstraintLayout layaout;
     Button play_pause, btn_repetir;
     MediaPlayer mp;
     ImageView iv;
@@ -26,6 +29,11 @@ public class Reproductor_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reproductor1);
+
+        //Cargar Mensaje de usuario guardado
+        layaout= (ConstraintLayout) findViewById(R.id.reproductor1);
+        Snackbar mySnackbar = Snackbar.make(layaout, "Perfil guadado correctamente",Snackbar.LENGTH_LONG);
+        mySnackbar.show();
 
         //extraemos el drawable en un bitmap
         Drawable originalDrawable = getResources().getDrawable(R.drawable.portada1);
