@@ -20,7 +20,7 @@ public class Agregar_Album extends AppCompatActivity {
     }
 
 
-
+    /*JOSÉ ESTUVO AQUÍ*/
     public void playListV(View playList){
         Intent window_playList= new Intent(this, Descripcion_Artista.class);
         startActivity(window_playList);
